@@ -53,6 +53,7 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("WeSplit")
+            .foregroundColor(tipPercentage == 0 ? .red : .blue)
         }
     }
 }
